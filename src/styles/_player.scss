@@ -1,0 +1,29 @@
+.song-container {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.time-control {
+  background-color: aqua;
+  width: 50%;
+  display: flex;
+  input {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+  p {
+    padding: 1rem;
+  }
+}
+.player-control {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  svg {
+    cursor: pointer;
+  }
+}
