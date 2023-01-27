@@ -1,8 +1,45 @@
+:root {
+  --font-size-h1: 4.5rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 2rem;
+  --font-size-p: 1.6rem;
+  --font-color-dark: rgb(54, 54, 54);
+}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
+html {
+  font-size: 62.5%;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  color: var(--font-color-dark);
+}
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: 600;
+}
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: 600;
+}
+h3 {
+  font-size: var(--font-size-h3);
+  font-weight: 400;
+}
+h4 {
+  font-size: var(--font-size-h4);
+  font-weight: 400;
+}
+p {
+  font-size: var(--font-size-p);
+  font-weight: 400;
+}
 @import "./player";
 @import "./song";

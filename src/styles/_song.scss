@@ -1,16 +1,18 @@
 .song-container {
-  min-height: 20vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   img {
     width: 20%;
     border-radius: 50%;
   }
+  h2 {
+    padding: 3rem 1rem 1rem 1rem;
+  }
 }
 .time-control {
-  background-color: aqua;
   width: 50%;
   display: flex;
   input {
